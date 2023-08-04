@@ -1,0 +1,46 @@
+body {
+  background-color: black;
+  color: red;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+nav {
+  display: flex;
+}
+
+nav input {
+  padding: 5px;
+  margin-right: 10px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+#creditTermContainer {
+  text-align: center;
+}
+
+#starWarsCharacter {
+  width: 200px;
+  animation: spin 2s infinite linear;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
